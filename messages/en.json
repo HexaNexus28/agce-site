@@ -1,0 +1,77 @@
+{
+  "common": {
+    "cta": "Free Consultation",
+    "whatsapp": "Book an appointment",
+    "learnMore": "Learn more"
+  },
+  "navbar": {
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Free Consultation"
+  },
+  "hero": {
+    "badge": "First consultation is free",
+    "title": "Grow your business",
+    "titleHighlight": "with peace of mind",
+    "subtitle": "Trust your accounting to professionals and focus on your growth.",
+    "ctaPrimary": "Book an appointment",
+    "ctaSecondary": "Discover our services"
+  },
+  "problems": {
+    "title": "Are you an entrepreneur or business owner?",
+    "item1": "Too many administrative burdens?",
+    "item2": "Afraid of tax errors?",
+    "item3": "Struggling to track your cash flow?",
+    "item4": "Lack of visibility on your performance?",
+    "conclusion": "AGCE is the solution."
+  },
+  "services": {
+    "title": "Our Services",
+    "accountingTitle": "Accounting & Management",
+    "accountingItem1": "Rigorous bookkeeping",
+    "accountingItem2": "Reliable financial statements",
+    "accountingItem3": "Strategic advisory",
+    "creationTitle": "Business Creation",
+    "creationItem1": "Complete incorporation formalities",
+    "creationItem2": "Best legal status advisory",
+    "creationItem3": "Strategic support from day one",
+    "socialTitle": "Payroll & HR",
+    "socialItem1": "Compliant payslips",
+    "socialItem2": "CNSS declarations",
+    "socialItem3": "HR administrative management",
+    "taxTitle": "Tax & Optimization",
+    "taxItem1": "Secure tax filings",
+    "taxItem2": "Legal tax burden reduction",
+    "taxItem3": "Audit assistance"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Your trusted accounting partner in Lomé",
+    "description": "AGCE — Assistance de Gestion Comptable des Entreprises — is a professional accounting firm based in Lomé, Togo. We support SMEs and entrepreneurs with their accounting, tax, and payroll management.",
+    "stats": {
+      "clients": "40+ clients served",
+      "experience": "5 years of experience"
+    }
+  },
+  "contact": {
+    "title": "Your first consultation is free",
+    "subtitle": "Many businesses pay tax penalties without knowing it. Are you really up to date?",
+    "whatsappPrimary": "WhatsApp — Main line",
+    "whatsappSecondary": "WhatsApp — Secondary line",
+    "formName": "Name",
+    "formEmail": "Email or WhatsApp",
+    "formMessage": "Message",
+    "formSubmit": "Send"
+  },
+  "footer": {
+    "quickLinks": "Quick links",
+    "contactUs": "Contact us",
+    "legal": "Legal notice",
+    "copyright": "© {year} AGCE — Assistance de Gestion Comptable des Entreprises. All rights reserved."
+  },
+  "metadata": {
+    "title": "AGCE — Accountant in Lomé | Business Accounting in Togo",
+    "description": "Professional accounting firm in Lomé. Accounting, business creation, tax, and payroll services for SMEs in Togo. First consultation free."
+  }
+}

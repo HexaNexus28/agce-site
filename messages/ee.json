@@ -1,0 +1,77 @@
+{
+  "common": {
+    "cta": "Gbãtɔ ƒe kpɔɖeŋu mana fe o",
+    "whatsapp": "Ɖo ŋkeke na",
+    "learnMore": "Srɔ̃ nu geɖe"
+  },
+  "navbar": {
+    "services": "Dɔwɔwɔwo",
+    "about": "Ŋutata",
+    "contact": "Kakakawo",
+    "cta": "Kpɔɖeŋu mana fe o"
+  },
+  "hero": {
+    "badge": "Gbãtɔ ƒe kpɔɖeŋu mana fe o",
+    "title": "Dze wo ƒe dɔwɔƒe ɖe edzi",
+    "titleHighlight": "kple ŋutifafa",
+    "subtitle": "De wo ƒe ga ƒe nuŋɔŋlɔ ɖe nyateƒelawo si eye nàtsɔ ŋku ɖe wo ƒe dɔwɔƒe ƒe nyinyi dzi ŋu dzi.",
+    "ctaPrimary": "Ɖo ŋkeke na",
+    "ctaSecondary": "Kpɔ mía ƒe dɔwɔwɔwo"
+  },
+  "problems": {
+    "title": "Dɔwɔƒetɔ alo ƒoƒlu wò nye a?",
+    "item1": "Dɔ si mele ŋku ƒe dɔ me sõ tɔɖa?",
+    "item2": "Vɔ̃ tso ga ƒe vodada ŋu a?",
+    "item3": "Asixɔxɔ le wo ƒe ga ƒe ɖoɖo kpɔkpɔ me a?",
+    "item4": "Mehea dɔwɔwɔ ƒe agbagba kpɔkpɔ o a?",
+    "conclusion": "AGCE enye ɖoɖo."
+  },
+  "services": {
+    "title": "Mía Ƒe Dɔwɔwɔwo",
+    "accountingTitle": "Ga Ƒe Nuŋɔŋlɔ & Ɖoɖo",
+    "accountingItem1": "Ga ƒe nuŋɔŋlɔ nyuie",
+    "accountingItem2": "Ga ƒe gɔmesese nyateƒe",
+    "accountingItem3": "Mɔnu fia na dɔwɔƒe",
+    "creationTitle": "Dɔwɔƒe Yeyewo Ƒe Ŋɔŋlɔ",
+    "creationItem1": "Dɔwɔƒe ŋɔŋlɔ ƒe dɔwo katã",
+    "creationItem2": "Mɔnu le se nyuie sia ŋu",
+    "creationItem3": "Kpekpeɖeŋu tso ɖeɖe gɔme",
+    "socialTitle": "Fetu & Dɔwɔlawo",
+    "socialItem1": "Fetu ƒe agbalẽwo si sɔ kple se",
+    "socialItem2": "CNSS ŋɔŋlɔwo",
+    "socialItem3": "Dɔwɔlawo ƒe ɖoɖo",
+    "taxTitle": "Ga Ƒe Asixɔxɔ & Ðeɖe Dzi",
+    "taxItem1": "Ga ƒe asixɔxɔ ŋɔŋlɔ dedie",
+    "taxItem2": "Ga ƒe asixɔxɔ ƒe ɖeɖe dzi le se me",
+    "taxItem3": "Kpekpeɖeŋu ne woɖo kpɔɖeŋu"
+  },
+  "about": {
+    "title": "Ŋutata",
+    "subtitle": "Wo ƒe ga ƒe nuŋɔŋlɔ ƒe dɔwɔɖola le Lomé",
+    "description": "AGCE — Assistance de Gestion Comptable des Entreprises — enye ga ƒe nuŋɔŋlɔ ƒe dɔwɔƒe le Lomé, Togo. Míekpea dɔwɔƒe suewo kple dɔwɔƒetɔwo ɖe woƒe ga ƒe nuŋɔŋlɔ, asixɔxɔ, kple fetu ƒe ɖoɖo me.",
+    "stats": {
+      "clients": "40+ dɔwɔƒewo míekpe ɖe enu",
+      "experience": "Ƒe 5 ƒe nunyawo"
+    }
+  },
+  "contact": {
+    "title": "Wo ƒe gbãtɔ ƒe kpɔɖeŋu mana fe o",
+    "subtitle": "Dɔwɔƒe geɖewo xɔa ga ƒe to le ga ƒe asixɔxɔ ta eye wonya o. Èle dedie a?",
+    "whatsappPrimary": "WhatsApp — Fɔn gbãtɔ",
+    "whatsappSecondary": "WhatsApp — Fɔn evelia",
+    "formName": "Ŋkɔ",
+    "formEmail": "Email alo WhatsApp",
+    "formMessage": "Nyawo",
+    "formSubmit": "Ɖo ɖa"
+  },
+  "footer": {
+    "quickLinks": "Kadodo kasiaewo",
+    "contactUs": "Ka ɖe mía ŋu",
+    "legal": "Se me ƒe nyawo",
+    "copyright": "© {year} AGCE — Assistance de Gestion Comptable des Entreprises. Mɔɖeɖe katã le asime."
+  },
+  "metadata": {
+    "title": "AGCE — Ga Ƒe Nuŋɔŋlɔla le Lomé | Dɔwɔƒewo Ƒe Ga Ƒe Ɖoɖo le Togo",
+    "description": "Ga ƒe nuŋɔŋlɔ ƒe dɔwɔƒe le Lomé. Ga ƒe nuŋɔŋlɔ, dɔwɔƒe yeyewo, asixɔxɔ kple fetu na dɔwɔƒe suewo le Togo. Gbãtɔ ƒe kpɔɖeŋu mana fe o."
+  }
+}

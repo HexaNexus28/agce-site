@@ -1,0 +1,77 @@
+{
+  "common": {
+    "cta": "1er RDV Offert",
+    "whatsapp": "Prendre rendez-vous",
+    "learnMore": "En savoir plus"
+  },
+  "navbar": {
+    "services": "Services",
+    "about": "À propos",
+    "contact": "Contact",
+    "cta": "1er RDV Offert"
+  },
+  "hero": {
+    "badge": "1er rendez-vous conseil offert",
+    "title": "Développez votre entreprise",
+    "titleHighlight": "en toute sérénité",
+    "subtitle": "Confiez votre comptabilité à des professionnels et concentrez-vous sur votre croissance.",
+    "ctaPrimary": "Prendre rendez-vous",
+    "ctaSecondary": "Découvrir nos services"
+  },
+  "problems": {
+    "title": "Vous êtes entrepreneur ou dirigeant ?",
+    "item1": "Trop de charges administratives ?",
+    "item2": "Peur des erreurs fiscales ?",
+    "item3": "Difficulté à suivre votre trésorerie ?",
+    "item4": "Manque de visibilité sur vos performances ?",
+    "conclusion": "AGCE est la solution."
+  },
+  "services": {
+    "title": "Nos Services",
+    "accountingTitle": "Comptabilité & Gestion",
+    "accountingItem1": "Tenue comptable rigoureuse",
+    "accountingItem2": "États financiers fiables",
+    "accountingItem3": "Accompagnement stratégique",
+    "creationTitle": "Création d'Entreprise",
+    "creationItem1": "Formalités complètes",
+    "creationItem2": "Conseil sur le meilleur statut",
+    "creationItem3": "Accompagnement stratégique dès le départ",
+    "socialTitle": "Social & Paie",
+    "socialItem1": "Bulletins de paie conformes",
+    "socialItem2": "Déclarations CNSS",
+    "socialItem3": "Gestion administrative du personnel",
+    "taxTitle": "Fiscalité & Optimisation",
+    "taxItem1": "Déclarations fiscales sécurisées",
+    "taxItem2": "Réduction légale de la pression fiscale",
+    "taxItem3": "Assistance en cas de contrôle"
+  },
+  "about": {
+    "title": "À propos",
+    "subtitle": "Votre partenaire comptable de confiance à Lomé",
+    "description": "AGCE — Assistance de Gestion Comptable des Entreprises — est un cabinet comptable professionnel basé à Lomé, Togo. Nous accompagnons les TPE/PME et entrepreneurs dans leur gestion comptable, fiscale et sociale.",
+    "stats": {
+      "clients": "40+ clients accompagnés",
+      "experience": "5 ans d'expérience"
+    }
+  },
+  "contact": {
+    "title": "Votre 1er rendez-vous conseil est offert",
+    "subtitle": "Beaucoup d'entreprises paient des pénalités fiscales sans le savoir. Êtes-vous vraiment à jour ?",
+    "whatsappPrimary": "WhatsApp — Ligne principale",
+    "whatsappSecondary": "WhatsApp — Ligne secondaire",
+    "formName": "Nom",
+    "formEmail": "Email ou WhatsApp",
+    "formMessage": "Message",
+    "formSubmit": "Envoyer"
+  },
+  "footer": {
+    "quickLinks": "Liens rapides",
+    "contactUs": "Nous contacter",
+    "legal": "Mentions légales",
+    "copyright": "© {year} AGCE — Assistance de Gestion Comptable des Entreprises. Tous droits réservés."
+  },
+  "metadata": {
+    "title": "AGCE — Expert-Comptable à Lomé | Gestion Comptable des Entreprises au Togo",
+    "description": "Cabinet comptable professionnel à Lomé. Comptabilité, création d'entreprise, fiscalité et gestion de paie pour TPE/PME au Togo. 1er rendez-vous conseil offert."
+  }
+}
