@@ -50,12 +50,12 @@ export default function Services() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-3xl sm:text-4xl font-serif font-bold text-center mb-14"
+          className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-center mb-8 sm:mb-14"
         >
           {t("title")}
         </motion.h2>
 
-        <div className="grid sm:grid-cols-2 gap-6">
+        <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
           {SERVICES.map((service, i) => (
             <motion.div
               key={service.key}
@@ -63,10 +63,10 @@ export default function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: i * 0.1 }}
-              className="group relative p-6 rounded-lg bg-navy-light/40 border border-border-gold hover:border-gold/30 transition-all duration-300 hover:bg-navy-light/60 hover:shadow-[0_0_30px_rgba(201,168,76,0.06)]"
+              className="group relative p-4 sm:p-6 rounded-lg bg-navy-light/40 border border-border-gold hover:border-gold/30 transition-all duration-300 hover:bg-navy-light/60 hover:shadow-[0_0_30px_rgba(201,168,76,0.06)]"
             >
               <div className="text-gold mb-4">{serviceIcons[service.icon]}</div>
-              <h3 className="text-xl font-serif font-semibold mb-4">
+              <h3 className="text-lg sm:text-xl font-serif font-semibold mb-3 sm:mb-4">
                 {t(`${service.key}Title`)}
               </h3>
               <ul className="space-y-2">

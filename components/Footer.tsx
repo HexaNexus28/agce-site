@@ -9,7 +9,7 @@ export default function Footer() {
 
   return (
     <footer className="relative py-12 px-4 bg-gradient-to-b from-navy-mid to-[#080c18] border-t border-border-gold">
-      <div className="max-w-6xl mx-auto grid sm:grid-cols-3 gap-10">
+      <div className="max-w-6xl mx-auto grid sm:grid-cols-3 gap-8 sm:gap-10">
         {/* Logo / Brand */}
         <div>
           <div className="flex items-center gap-3 mb-4">

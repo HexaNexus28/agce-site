@@ -20,13 +20,13 @@ export default function About() {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl sm:text-4xl font-serif font-bold mb-3">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold mb-3">
             {t("title")}
           </h2>
           <p className="text-gold text-lg">{t("subtitle")}</p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-10 items-center">
+        <div className="grid md:grid-cols-2 gap-6 sm:gap-10 items-center">
           {/* Photo placeholder */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -54,7 +54,7 @@ export default function About() {
             <p className="text-muted leading-relaxed mb-8">{t("description")}</p>
 
             {/* Stats */}
-            <div className="grid grid-cols-2 gap-4 mb-8">
+            <div className="grid grid-cols-2 gap-3 sm:gap-4 mb-6 sm:mb-8">
               <div className="p-4 rounded-lg bg-navy-light/50 border border-border-gold text-center">
                 <p className="text-2xl font-serif font-bold text-gold">40+</p>
                 <p className="text-sm text-muted">{t("stats.clients")}</p>
@@ -70,6 +70,7 @@ export default function About() {
               href={AGCE_CONFIG.linkedin}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Voir le profil LinkedIn de Joël ADJAKPLEY"
               className="inline-flex items-center gap-2 text-gold hover:text-gold-light transition-colors"
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">

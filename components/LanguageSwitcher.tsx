@@ -1,7 +1,7 @@
 "use client";
 
 import { useLocale } from "next-intl";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname, useRouter } from "@/i18n/navigation";
 import { routing, type Locale } from "@/i18n/routing";
 
 const localeLabels: Record<Locale, string> = {
@@ -16,20 +16,7 @@ export default function LanguageSwitcher() {
   const pathname = usePathname();
 
   function switchLocale(newLocale: Locale) {
-    const segments = pathname.split("/");
-
-    if (routing.locales.includes(segments[1] as Locale)) {
-      segments[1] = newLocale;
-    } else {
-      segments.splice(1, 0, newLocale);
-    }
-
-    const newPath =
-      newLocale === routing.defaultLocale
-        ? segments.slice(2).join("/") || "/"
-        : segments.join("/");
-
-    router.push(newPath);
+    router.replace(pathname, { locale: newLocale });
   }
 
   return (
@@ -40,8 +27,8 @@ export default function LanguageSwitcher() {
           onClick={() => switchLocale(loc)}
           className={`px-2 py-1 text-sm rounded transition-colors ${
             loc === locale
-              ? "font-semibold opacity-100"
-              : "opacity-60 hover:opacity-100"
+              ? "text-gold font-semibold"
+              : "text-muted opacity-60 hover:opacity-100"
           }`}
           aria-label={`Switch to ${localeLabels[loc]}`}
         >

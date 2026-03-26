@@ -35,12 +35,12 @@ export default function Problems() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-3xl sm:text-4xl font-serif font-bold mb-12"
+          className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold mb-8 sm:mb-12"
         >
           {t("title")}
         </motion.h2>
 
-        <div className="grid sm:grid-cols-2 gap-6 mb-12">
+        <div className="grid sm:grid-cols-2 gap-3 sm:gap-6 mb-8 sm:mb-12">
           {PROBLEMS.map((key, i) => (
             <motion.div
               key={key}
@@ -48,10 +48,10 @@ export default function Problems() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: i * 0.1 }}
-              className="flex items-center gap-4 p-5 rounded-lg bg-navy-light/50 border border-border-gold text-left"
+              className="flex items-center gap-3 sm:gap-4 p-3 sm:p-5 rounded-lg bg-navy-light/50 border border-border-gold text-left"
             >
               <div className="text-gold shrink-0">{icons[i]}</div>
-              <p className="text-muted">{t(key)}</p>
+              <p className="text-sm sm:text-base text-muted">{t(key)}</p>
             </motion.div>
           ))}
         </div>

@@ -4,6 +4,7 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import { Analytics } from "@vercel/analytics/next";
 import { AGCE_CONFIG } from "@/lib/constants";
 import "../globals.css";
 
@@ -51,14 +52,32 @@ export async function generateMetadata({
     openGraph: {
       type: "website",
       locale: locale === "fr" ? "fr_TG" : locale === "en" ? "en_US" : "ee_GH",
+      url: locale === "fr" ? AGCE_CONFIG.domain : `${AGCE_CONFIG.domain}/${locale}`,
       siteName: "AGCE",
       title: t("title"),
       description: t("description"),
+      images: [
+        {
+          url: `/${locale}/opengraph-image`,
+          width: 1200,
+          height: 630,
+          alt: "AGCE — Cabinet Comptable Professionnel à Lomé, Togo",
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: t("title"),
       description: t("description"),
+      images: [`/${locale}/opengraph-image`],
+    },
+    alternates: {
+      canonical: locale === "fr" ? AGCE_CONFIG.domain : `${AGCE_CONFIG.domain}/${locale}`,
+      languages: {
+        fr: AGCE_CONFIG.domain,
+        en: `${AGCE_CONFIG.domain}/en`,
+        ee: `${AGCE_CONFIG.domain}/ee`,
+      },
     },
     robots: { index: true, follow: true },
   };
@@ -130,6 +149,7 @@ export default async function LocaleLayout({
       </head>
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   );

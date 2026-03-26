@@ -34,15 +34,15 @@ export default function Hero() {
       {/* Bottom fade into next section */}
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-navy-mid to-transparent" />
 
-      <div className="relative z-10 max-w-3xl mx-auto px-4 text-center pt-24 pb-16">
+      <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 text-center pt-20 sm:pt-24 pb-12 sm:pb-16">
         {/* Badge */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="inline-block mb-8"
+          className="inline-block mb-6 sm:mb-8"
         >
-          <span className="px-4 py-1.5 border border-gold/30 rounded-full text-gold text-sm tracking-wide">
+          <span className="px-3 py-1 sm:px-4 sm:py-1.5 border border-gold/30 rounded-full text-gold text-xs sm:text-sm tracking-wide">
             {t("badge")}
           </span>
         </motion.div>
@@ -63,7 +63,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="mt-6 text-lg text-muted max-w-xl mx-auto"
+          className="mt-4 sm:mt-6 text-base sm:text-lg text-muted max-w-xl mx-auto"
         >
           {t("subtitle")}
         </motion.p>
@@ -73,20 +73,20 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.45 }}
-          className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
+          className="mt-8 sm:mt-10 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4"
         >
           <a
             href={AGCE_CONFIG.whatsapp1}
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Prendre rendez-vous via WhatsApp"
-            className="px-6 py-3 bg-gold text-navy font-medium rounded hover:bg-gold-light transition-colors"
+            className="w-full sm:w-auto px-6 py-3 bg-gold text-navy text-sm sm:text-base font-medium rounded hover:bg-gold-light transition-colors text-center"
           >
             {t("ctaPrimary")}
           </a>
           <a
             href="#services"
-            className="px-6 py-3 border border-gold/30 text-gold rounded hover:bg-gold/10 transition-colors"
+            className="w-full sm:w-auto px-6 py-3 border border-gold/30 text-gold text-sm sm:text-base rounded hover:bg-gold/10 transition-colors text-center"
           >
             {t("ctaSecondary")}
           </a>
