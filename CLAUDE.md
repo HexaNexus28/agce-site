@@ -7,7 +7,7 @@
 
 ## 1. Contexte Projet
 
-**Client** : Joël [NOM_A_RENSEIGNER], Expert-Comptable Junior  
+**Client** : Joël [NOM_A_RENSEIGNER], Comptable Junior  
 **Cabinet** : AGCE — Assistance de Gestion Comptable des Entreprises  
 **Localisation** : Lomé, Togo  
 **Téléphones** : +228 97 55 09 77 / +228 91 55 59 79  
@@ -94,13 +94,13 @@ agce-site/
 ```typescript
 export const metadata: Metadata = {
   title: {
-    default: "AGCE — Expert-Comptable à Lomé | Gestion Comptable des Entreprises au Togo",
+    default: "AGCE — Comptable à Lomé | Gestion Comptable des Entreprises au Togo",
     template: "%s | AGCE Togo"
   },
   description: "Cabinet comptable professionnel à Lomé. Comptabilité, création d'entreprise, fiscalité et gestion de paie pour TPE/PME au Togo. 1er rendez-vous conseil offert.",
   keywords: [
-    "expert comptable Togo",
-    "expert comptable Lomé",
+    "comptable Togo",
+    "comptable Lomé",
     "cabinet comptable Lomé",
     "création entreprise Togo",
     "fiscalité Togo",
@@ -116,13 +116,13 @@ export const metadata: Metadata = {
     locale: "fr_TG",
     url: "https://[DOMAINE_A_RENSEIGNER]",
     siteName: "AGCE",
-    title: "AGCE — Expert-Comptable à Lomé, Togo",
+    title: "AGCE — Comptable à Lomé, Togo",
     description: "Confiez votre comptabilité à des professionnels. Création d'entreprise, fiscalité, gestion de paie. 1er RDV offert.",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "AGCE Cabinet Comptable Lomé Togo" }]
   },
   twitter: {
     card: "summary_large_image",
-    title: "AGCE — Expert-Comptable Lomé Togo",
+    title: "AGCE — Comptable Lomé Togo",
     description: "Cabinet comptable professionnel. 1er rendez-vous conseil offert.",
     images: ["/og-image.png"]
   },

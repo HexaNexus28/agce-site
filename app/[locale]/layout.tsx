@@ -39,8 +39,8 @@ export async function generateMetadata({
     title: t("title"),
     description: t("description"),
     keywords: [
-      "expert comptable Togo",
-      "expert comptable Lomé",
+      "comptable Togo",
+      "comptable Lomé",
       "cabinet comptable Lomé",
       "création entreprise Togo",
       "fiscalité Togo",

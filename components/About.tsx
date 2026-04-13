@@ -40,7 +40,7 @@ export default function About() {
                 <span className="text-gold font-serif text-2xl font-bold">JA</span>
               </div>
               <p className="font-serif text-lg text-white-warm">{AGCE_CONFIG.fullName}</p>
-              <p className="text-sm">Expert-Comptable</p>
+              <p className="text-sm">Comptable</p>
             </div>
           </motion.div>
 
